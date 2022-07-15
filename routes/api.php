@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::resource('contacts', ContactController::class);
+Route::post('/import',[ContactController::class, 'import'])->name('user.import');
