@@ -2,6 +2,8 @@ Run composer install
 
 Run php artisan migrate to get all the tables
 
+run php artisan serve
+
 Test the api using postman 
 
 Contact List API: Verb:GET, URL:http://localhost:8000/api/contacts
